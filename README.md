@@ -2,99 +2,99 @@
 
 # Ruby Sinatra JSON API
 
-Simple API REST construida con Ruby y Sinatra que devuelve un mensaje de saludo en formato JSON. Este proyecto demuestra la implementación de un endpoint básico usando Sinatra y su contenerización con Docker.
+Simple REST API built with Ruby and Sinatra that returns a hello message in JSON format. This project demonstrates the implementation of a basic endpoint using Sinatra and its containerization with Docker.
 
-## ✨ Características
+## ✨ Features
 
-- API REST simple
-- Respuesta en formato JSON
-- Implementación con Sinatra
-- Dockerización completa
-- Gestión de dependencias con Bundler
+- Simple REST API
+- Response in JSON format
+- Deployment with Sinatra
+- Full Dockerization
+- Dependency management with Bundler
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 - Ruby 3.1
 - Sinatra
 - Docker
 - Gems:
-  - sinatra
-  - rackup
-  - webrick
+- sinatra
+- rackup
+- webrick
 
-## 📋 Prerrequisitos
+## 📋 Prerequisites
 
-Para desarrollo local necesitas:
+For local development you need:
 - Ruby 3.1+
 - Bundler
-- Docker 
+- Docker
 
-## 🚀 Inicio Rápido
+## 🚀 Quick Start
 
-### Instalación Local
+### Local Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
-git clone https://github.com/TU_USUARIO/PT-Program05.git
+git clone https://github.com/YOUR_USER/PT-Program05.git
 cd PT-Program05
 ```
 
-2. Instala las dependencias:
+2. Install the dependencies:
 ```bash
 bundle install
 ```
 
-3. Ejecuta la aplicación:
+3. Run the application:
 ```bash
 ruby Program05.rb
 ```
 
-La API estará disponible en `http://localhost:4567`
+The API will be available at `http://localhost:4567`
 
-### Usando Docker
+### Using Docker
 
 ```bash
-# Construir la imagen
+# Build the image
 docker build -t program05 .
 
-# Ejecutar el contenedor
+# Run the container
 docker run -p 4567:4567 program05
 ```
 
-## 📦 Estructura del Proyecto
+## 📦 Project Structure
 
 ```
 PT-Program05/
 │
-├── Program05.rb    # Archivo principal de la aplicación
-├── Dockerfile      # Configuración de Docker
-├── Gemfile        # Dependencias del proyecto
-├── Gemfile.lock   # Versiones específicas de las dependencias
-└── README.md      # Documentación
+├── Program05.rb # Main application file
+├── Dockerfile # Docker configuration
+├── Gemfile # Project dependencies
+├── Gemfile.lock # Specific dependency versions
+└── README.md # Documentation
 ```
 
 ## 🔍 API Endpoints
 
 ### GET /
-Retorna un mensaje de saludo en formato JSON.
+Returns a hello message in JSON format.
 
-#### Respuesta
+#### Response
 ```json
 {
-  "message": "Hello world, this program is the last one made in ruby :3!!!"
+"message": "Hello world, this program is the last one made in ruby ​​:3!!!"
 }
 ```
 
-## 📝 Configuración
+## 📝 Configuration
 
-El servidor está configurado para:
-- Escuchar en todas las interfaces (0.0.0.0)
-- Puerto por defecto: 4567
-- Formato de respuesta: JSON
+The server is configured to:
+- Listen on all interfaces (0.0.0.0)
+- Default port: 4567
+- Response format: JSON
 
-## 🚀 Despliegue
+## 🚀 Deployment
 
-El proyecto puede ser desplegado en cualquier plataforma que soporte contenedores Docker:
+The project can be deployed on any platform that supports Docker containers:
 - Render
 - Heroku
 - DigitalOcean
