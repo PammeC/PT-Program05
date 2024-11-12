@@ -100,4 +100,4 @@ The project can be deployed on any platform that supports Docker containers:
 - DigitalOcean
 - AWS
 - Google Cloud Platform
-The application is currently deployed on Render and can be accessed at the following link: https://pt-program05.onrender.com 
+The application is currently deployed on Render and can be accessed at the following link: https://pt-program05.onrender.com/
