@@ -2,7 +2,7 @@
 
 # Ruby Sinatra JSON API
 
-Simple REST API built with Ruby and Sinatra that returns a hello message in JSON format. This project demonstrates the implementation of a basic endpoint using Sinatra and its containerization with Docker.
+Simple REST API built with Ruby and Sinatra that returns a hello message in JSON format. This project demonstrates the implementation of a basic endpoint using Sinatra.
 
 ## ✨ Features
 
